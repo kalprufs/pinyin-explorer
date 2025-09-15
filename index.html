@@ -590,7 +590,6 @@
 
             // Play audio function
             function playAudio(pinyin, toneNumber) {
-                // Remove tone marks for filename
                 const filename = pinyin.replace(/[āáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜńňǹḿ]/g, function(char) {
                     const map = {
                         'ā':'a','á':'a','ǎ':'a','à':'a',
@@ -603,6 +602,7 @@
                     };
                     return map[char] || char;
                 });
+                console.log("Trying to play:", `${filename}${toneNumber}.mp3`);
                 const audio = new Audio(`${filename}${toneNumber}.mp3`);
                 audio.play().catch(error => {
                     console.log(`Audio file not found: ${filename}${toneNumber}.mp3`);
@@ -839,6 +839,7 @@
 
             // Start the quiz
             function startQuiz() {
+                console.log("startQuiz called");
                 if (currentToneData.length === 0) return;
                 
                 // Reset all options
