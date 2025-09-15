@@ -1,0 +1,25 @@
+{
+  "s": {
+    "san": [
+      {"hanzi": "三", "pinyin": "sān", "meaning": "سه"},
+      {"hanzi": "散", "pinyin": "sàn", "meaning": "پخش کردن، متفرق کردن"}
+    ],
+    "si": [
+      {"hanzi": "司", "pinyin": "sī", "meaning": "اداره، مدیریت"},
+      {"hanzi": "思", "pinyin": "sī", "meaning": "فکر کردن، اندیشیدن"},
+      {"hanzi": "死", "pinyin": "sǐ", "meaning": "مردن"},
+      {"hanzi": "四", "pinyin": "sì", "meaning": "چهار"}
+    ],
+    "su": [
+      {"hanzi": "诉", "pinyin": "sù", "meaning": "شکایت کردن، روایت کردن"},
+      {"hanzi": "宿", "pinyin": "sù", "meaning": "خوابگاه، محل خواب"}
+    ],
+    "suan": [
+      {"hanzi": "酸", "pinyin": "suān", "meaning": "ترش"},
+      {"hanzi": "算", "pinyin": "suàn", "meaning": "حساب کردن، در نظر گرفتن"}
+    ],
+    "sui": [
+      {"hanzi": "岁", "pinyin": "suì", "meaning": "سال، سن"}
+    ]
+  }
+}

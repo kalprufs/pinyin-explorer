@@ -1,0 +1,60 @@
+{
+  "d": {
+    "da": [
+      {"hanzi": "答", "pinyin": "dá", "meaning": "پاسخ دادن"},
+      {"hanzi": "打", "pinyin": "dǎ", "meaning": "زدن، بازی کردن (مثلاً 打篮球 = بسکتبال بازی کردن)"},
+      {"hanzi": "大", "pinyin": "dà", "meaning": "بزرگ"}
+    ],
+    "dai": [
+      {"hanzi": "戴", "pinyin": "dài", "meaning": "پوشیدن (برای کلاه، دستبند و عینک)"}
+    ],
+    "dan": [
+      {"hanzi": "担", "pinyin": "dān", "meaning": "حمل کردن، بر دوش گرفتن"},
+      {"hanzi": "但", "pinyin": "dàn", "meaning": "اما، ولی"}
+    ],
+    "dang": [
+      {"hanzi": "当", "pinyin": "dāng", "meaning": "شدن، به عنوان ... بودن"}
+    ],
+    "dao": [
+      {"hanzi": "刀", "pinyin": "dāo", "meaning": "چاقو"},
+      {"hanzi": "导", "pinyin": "dǎo", "meaning": "راهنمایی کردن، هدایت کردن"},
+      {"hanzi": "到", "pinyin": "dào", "meaning": "رسیدن"},
+      {"hanzi": "道", "pinyin": "dào", "meaning": "راه، مسیر، اصول"}
+    ],
+    "de": [
+      {"hanzi": "得", "pinyin": "de", "meaning": "حرف اضافه برای توصیف حالت یا نتیجه فعل (مثلاً 说得好 = خوب گفتن)"},
+      {"hanzi": "的", "pinyin": "de", "meaning": "حرف اضافه ملکی، برای توصیف (مثلاً 我的书 = کتاب من)"},
+      {"hanzi": "地", "pinyin": "de", "meaning": "حرف قیدی برای وصف فعل (مثلاً 高兴地说 = خوشحالانه گفت)"}
+    ],
+    "deng": [
+      {"hanzi": "灯", "pinyin": "dēng", "meaning": "چراغ"},
+      {"hanzi": "等", "pinyin": "děng", "meaning": "صبر کردن، انتظار کشیدن؛ و همچنین «و غیره»"}
+    ],
+    "di": [
+      {"hanzi": "低", "pinyin": "dī", "meaning": "پایین، کم"},
+      {"hanzi": "地", "pinyin": "dì", "meaning": "زمین، محل"},
+      {"hanzi": "弟", "pinyin": "dì", "meaning": "برادر کوچک"}
+      
+    ],
+    "dian": [
+      {"hanzi": "典", "pinyin": "diǎn", "meaning": "کتاب مرجع، کلاسیک"},
+      {"hanzi": "点", "pinyin": "diǎn", "meaning": "نقطه، ساعت، کمی"},
+      {"hanzi": "电", "pinyin": "diàn", "meaning": "برق"},
+      {"hanzi": "店", "pinyin": "diàn", "meaning": "فروشگاه"}
+    ],
+    "dong": [
+      {"hanzi": "东", "pinyin": "dōng", "meaning": "شرق"},
+      {"hanzi": "懂", "pinyin": "dǒng", "meaning": "فهمیدن"},
+      {"hanzi": "动", "pinyin": "dòng", "meaning": "حرکت کردن"}
+    ],
+    "dou": [
+      {"hanzi": "都", "pinyin": "dōu", "meaning": "همه"}
+    ],
+    "dui": [
+      {"hanzi": "对", "pinyin": "duì", "meaning": "درست، روبرو، برای"}
+    ],
+    "duo": [
+      {"hanzi": "多", "pinyin": "duō", "meaning": "زیاد، چندین"}
+    ]
+  }
+}

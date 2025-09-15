@@ -1,0 +1,51 @@
+{
+  "g": {
+    "gai": [
+      {"hanzi": "该", "pinyin": "gāi", "meaning": "باید، لازم است"},
+      {"hanzi": "概", "pinyin": "gài", "meaning": "تقریباً، کلیت، اساس"}
+    ],
+    "gan": [
+      {"hanzi": "干", "pinyin": "gān", "meaning": "خشک"},
+      {"hanzi": "感", "pinyin": "gǎn", "meaning": "احساس کردن، درک کردن"},
+      {"hanzi": "干", "pinyin": "gàn", "meaning": "انجام دادن، کار کردن"}
+    ],
+    "gang": [
+      {"hanzi": "刚", "pinyin": "gāng", "meaning": "همین الان، سخت، محکم"}
+    ],
+    "gao": [
+      {"hanzi": "高", "pinyin": "gāo", "meaning": "بلند، زیاد"},
+      {"hanzi": "告", "pinyin": "gào", "meaning": "اعلام کردن، خبر دادن"}
+    ],
+    "ge": [
+      {"hanzi": "哥", "pinyin": "gē", "meaning": "برادر بزرگ، دوست مرد"},
+      {"hanzi": "个", "pinyin": "gè", "meaning": "عدد شمارشی، یک"}
+    ],
+    "gei": [
+      {"hanzi": "给", "pinyin": "gěi", "meaning": "دادن، برای"}
+    ],
+    "gen": [
+      {"hanzi": "跟", "pinyin": "gēn", "meaning": "با، دنبال کردن"}
+    ],
+    "gong": [
+      {"hanzi": "工", "pinyin": "gōng", "meaning": "کار، صنعت"},
+      {"hanzi": "公", "pinyin": "gōng", "meaning": "عمومی، مرد"},
+      {"hanzi": "功", "pinyin": "gōng", "meaning": "کار، دستاورد"},
+      {"hanzi": "共", "pinyin": "gòng", "meaning": "با هم، مشترک"}
+    ],
+    "guai": [
+      {"hanzi": "拐", "pinyin": "guǎi", "meaning": "پیچیدن، دزدیدن (مثل 拐卖)"}
+    ],
+    "guan": [
+      {"hanzi": "关", "pinyin": "guān", "meaning": "بستن، مربوط بودن"},
+      {"hanzi": "馆", "pinyin": "guǎn", "meaning": "موزه، سالن"}
+    ],
+    "gui": [
+      {"hanzi": "贵", "pinyin": "guì", "meaning": "گران، محترم"}
+    ],
+    "guo": [
+      {"hanzi": "国", "pinyin": "guó", "meaning": "کشور"},
+      {"hanzi": "果", "pinyin": "guǒ", "meaning": "میوه"},
+      {"hanzi": "过", "pinyin": "guò", "meaning": "گذشتن، تجربه کردن"}
+    ]
+  }
+}

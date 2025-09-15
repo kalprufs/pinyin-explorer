@@ -1,0 +1,40 @@
+{
+  "t": {
+    "ta": [
+      {"hanzi": "他", "pinyin": "tā", "meaning": "او (مذکر)"},
+      {"hanzi": "她", "pinyin": "tā", "meaning": "او (مؤنث)"},
+      {"hanzi": "它", "pinyin": "tā", "meaning": "او (خنثی)"}
+    ],
+    "tai": [
+      {"hanzi": "太", "pinyin": "tài", "meaning": "خیلی، بیش از حد"}
+    ],
+    "tang": [
+      {"hanzi": "汤", "pinyin": "tāng", "meaning": "سوپ"},
+      {"hanzi": "堂", "pinyin": "táng", "meaning": "تالار، اتاق بزرگ"},
+      {"hanzi": "糖", "pinyin": "táng", "meaning": "شکر، آب‌نبات"}
+    ],
+    "tian": [
+      {"hanzi": "天", "pinyin": "tiān", "meaning": "آسمان، روز"},
+      {"hanzi": "田", "pinyin": "tián", "meaning": "مزرعه، زمین کشاورزی"}
+    ],
+    "tiao": [
+      {"hanzi": "条", "pinyin": "tiáo", "meaning": "واحد شمارش برای چیزهای بلند و باریک (مانند شلوار، ماهی، خیابان)"}
+    ],
+    "ting": [
+      {"hanzi": "听", "pinyin": "tīng", "meaning": "گوش دادن"}
+    ],
+    "tie": [
+      {"hanzi": "铁", "pinyin": "tiě", "meaning": "آهن"}
+    ],
+    "tong": [
+      {"hanzi": "同", "pinyin": "tóng", "meaning": "همراه، یکسان، مشابه"}
+    ],
+    "tou": [
+      {"hanzi": "头", "pinyin": "tóu", "meaning": "سر"}
+    ],
+    "tu": [
+      {"hanzi": "图", "pinyin": "tú", "meaning": "نقشه، تصویر"},
+      {"hanzi": "土", "pinyin": "tǔ", "meaning": "خاک، زمین"}
+    ]
+  }
+}

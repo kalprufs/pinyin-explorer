@@ -1,0 +1,51 @@
+{
+  "x": {
+    "xi": [
+      {"hanzi": "西", "pinyin": "xī", "meaning": "غرب"},
+      {"hanzi": "息", "pinyin": "xī", "meaning": "نفس، استراحت"},
+      {"hanzi": "习", "pinyin": "xí", "meaning": "یاد گرفتن، عادت"},
+      {"hanzi": "喜", "pinyin": "xǐ", "meaning": "خوشحال، دوست داشتن"},
+      {"hanzi": "系", "pinyin": "xì", "meaning": "رشته، ارتباط"}
+    ],
+    "xia": [
+      {"hanzi": "下", "pinyin": "xià", "meaning": "پایین، بعد از"}
+    ],
+    "xian": [
+      {"hanzi": "先", "pinyin": "xiān", "meaning": "اول، قبلاً"},
+      {"hanzi": "现", "pinyin": "xiàn", "meaning": "ظاهر شدن، اکنون"}
+    ],
+    "xiang": [
+      {"hanzi": "想", "pinyin": "xiǎng", "meaning": "فکر کردن، دلتنگ بودن"},
+      {"hanzi": "向", "pinyin": "xiàng", "meaning": "به سمت، رو به"}
+    ],
+    "xiao": [
+      {"hanzi": "小", "pinyin": "xiǎo", "meaning": "کوچک"},
+      {"hanzi": "校", "pinyin": "xiào", "meaning": "مدرسه"}
+    ],
+    "xie": [
+      {"hanzi": "些", "pinyin": "xiē", "meaning": "کمی، چندی"},
+      {"hanzi": "写", "pinyin": "xiě", "meaning": "نوشتن"},
+      {"hanzi": "谢", "pinyin": "xiè", "meaning": "تشکر کردن"}
+    ],
+    "xin": [
+      {"hanzi": "心", "pinyin": "xīn", "meaning": "قلب، دل"},
+      {"hanzi": "新", "pinyin": "xīn", "meaning": "جدید، نو"},
+      {"hanzi": "信", "pinyin": "xìn", "meaning": "ایمان، اعتماد"}
+
+    ],
+    "xing": [
+      {"hanzi": "兴", "pinyin": "xīng", "meaning": "شادی، رونق"},
+      {"hanzi": "星", "pinyin": "xīng", "meaning": "ستاره"},
+      {"hanzi": "行", "pinyin": "xíng", "meaning": "راه رفتن، انجام دادن"},
+      {"hanzi": "性", "pinyin": "xìng", "meaning": "ماهیت، ویژگی"},
+      {"hanzi": "姓", "pinyin": "xìng", "meaning": "نام خانوادگی"}
+    ],
+    "xiu": [
+      {"hanzi": "休", "pinyin": "xiū", "meaning": "استراحت کردن"}
+    ],
+    "xue": [
+      {"hanzi": "学", "pinyin": "xué", "meaning": "یاد گرفتن، درس خواندن"},
+      {"hanzi": "雪", "pinyin": "xuě", "meaning": "برف"}
+    ]
+  }
+}

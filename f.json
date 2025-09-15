@@ -1,0 +1,33 @@
+{
+  "f": {
+    "fa": [
+      {"hanzi": "发", "pinyin": "fā", "meaning": "فرستادن، صادر کردن"},
+      {"hanzi": "法", "pinyin": "fǎ", "meaning": "قانون، روش"},
+      {"hanzi": "发", "pinyin": "fà", "meaning": "مو (مثلاً 头发 = مو)"}
+    ],
+    "fan": [
+      {"hanzi": "翻", "pinyin": "fān", "meaning": "چرخاندن، برگرداندن"},
+      {"hanzi": "烦", "pinyin": "fán", "meaning": "مزاحم، آزاردهنده"},
+      {"hanzi": "饭", "pinyin": "fàn", "meaning": "غذا، برنج پخته"}
+    ],
+    "fang": [
+      {"hanzi": "方", "pinyin": "fāng", "meaning": "جهت، مربع، روش"},
+      {"hanzi": "房", "pinyin": "fáng", "meaning": "اتاق، خانه"},
+      {"hanzi": "放", "pinyin": "fàng", "meaning": "گذاشتن، رها کردن"}
+    ],
+    "fei": [
+      {"hanzi": "非", "pinyin": "fēi", "meaning": "نه، غیر"},
+      {"hanzi": "啡", "pinyin": "fēi", "meaning": "قهوه (مثلاً 咖啡 = قهوه)"}
+    ],
+    "fen": [
+      {"hanzi": "分", "pinyin": "fēn", "meaning": "تقسیم کردن، دقیقه، سنت"},
+      {"hanzi": "分", "pinyin": "fèn", "meaning": "بخش، سهم"}
+    ],
+    "fu": [
+      {"hanzi": "夫", "pinyin": "fū", "meaning": "شوهر، مرد"},
+      {"hanzi": "服", "pinyin": "fú", "meaning": "لباس،服用 = مصرف کردن دارو"},
+      {"hanzi": "附", "pinyin": "fù", "meaning": "ضمیمه کردن، پیوست کردن"},
+      {"hanzi": "副", "pinyin": "fù", "meaning": "کمکی، جانبی"}
+    ]
+  }
+}

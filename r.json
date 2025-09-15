@@ -1,0 +1,20 @@
+{
+  "r": {
+    "ran": [
+      {"hanzi": "然", "pinyin": "rán", "meaning": "این‌طور، درست"}
+    ],
+    "rang": [
+      {"hanzi": "让", "pinyin": "ràng", "meaning": "اجازه دادن، واگذار کردن"}
+    ],
+    "ren": [
+      {"hanzi": "人", "pinyin": "rén", "meaning": "انسان، فرد"},
+      {"hanzi": "认", "pinyin": "rèn", "meaning": "شناختن، قبول کردن"}
+    ],
+    "ri": [
+      {"hanzi": "日", "pinyin": "rì", "meaning": "خورشید، روز"}
+    ],
+    "rou": [
+      {"hanzi": "肉", "pinyin": "ròu", "meaning": "گوشت"}
+    ]
+  }
+}

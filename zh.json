@@ -1,0 +1,38 @@
+{
+  "zh": {
+    "zhan": [
+      {"hanzi": "站", "pinyin": "zhàn", "meaning": "ایستگاه، ایستادن"}
+    ],
+    "zhang": [
+      {"hanzi": "张", "pinyin": "zhāng", "meaning": "گسترش دادن، ورق؛ نام خانوادگی"}
+    ],
+    "zhao": [
+      {"hanzi": "找", "pinyin": "zhǎo", "meaning": "جستجو کردن، پیدا کردن"},
+      {"hanzi": "照", "pinyin": "zhào", "meaning": "عکس"}
+    ],
+    "zhe": [
+      {"hanzi": "者", "pinyin": "zhě", "meaning": "فرد، کسی که…"},
+      {"hanzi": "这", "pinyin": "zhè", "meaning": "این"}
+    ],
+    "zhen": [
+      {"hanzi": "真", "pinyin": "zhēn", "meaning": "واقعی، درست"}
+    ],
+    "zhi": [
+      {"hanzi": "支", "pinyin": "zhī", "meaning": "شاخه، واحد شمارش برای چیزهای بلند و باریک"},
+      {"hanzi": "知", "pinyin": "zhī", "meaning": "دانستن، آگاهی"},
+      {"hanzi": "直", "pinyin": "zhí", "meaning": "نزدیک، مستقیم"},
+      {"hanzi": "纸", "pinyin": "zhǐ", "meaning": "کاغذ"},
+      {"hanzi": "只", "pinyin": "zhǐ", "meaning": "تنها، فقط"}
+    ],
+    "zhong": [
+      {"hanzi": "中", "pinyin": "zhōng", "meaning": "وسط، مرکزی"},
+      {"hanzi": "钟", "pinyin": "zhōng", "meaning": "ساعت، زنگ"},
+      {"hanzi": "种", "pinyin": "zhǒng", "meaning": "نوع، گونه"},
+      {"hanzi": "重", "pinyin": "zhòng", "meaning": "سنگین"}
+    ],
+    "zhu": [
+      {"hanzi": "助", "pinyin": "zhù", "meaning": "کمک کردن"},
+      {"hanzi": "住", "pinyin": "zhù", "meaning": "زندگی کردن، اقامت کردن"}
+    ]
+  }
+}

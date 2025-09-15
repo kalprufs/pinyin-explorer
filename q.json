@@ -1,0 +1,30 @@
+{
+  "q": {
+    "qi": [
+      {"hanzi": "七", "pinyin": "qī", "meaning": "هفت"},
+      {"hanzi": "期", "pinyin": "qī", "meaning": "دوره، زمان"},
+      {"hanzi": "骑", "pinyin": "qí", "meaning": "سوار شدن (دوچرخه یا اسب)"},
+      {"hanzi": "起", "pinyin": "qǐ", "meaning": "بلند شدن، شروع شدن"},
+      {"hanzi": "气", "pinyin": "qì", "meaning": "هوا، انرژی، نفس"},
+      {"hanzi": "汽", "pinyin": "qì", "meaning": "بخار، خودرو (مثل 汽车)"} 
+    ],
+    "qian": [
+      {"hanzi": "千", "pinyin": "qiān", "meaning": "هزار"},
+      {"hanzi": "前", "pinyin": "qián", "meaning": "جلو، قبل"},
+      {"hanzi": "钱", "pinyin": "qián", "meaning": "پول"} 
+    ],
+    "qing": [
+      {"hanzi": "轻", "pinyin": "qīng", "meaning": "سبک"},
+      {"hanzi": "情", "pinyin": "qíng", "meaning": "احساس، عاطفه"},
+      {"hanzi": "请", "pinyin": "qǐng", "meaning": "لطفا، دعوت کردن"}
+      
+    ],
+    "qiu": [
+      {"hanzi": "秋", "pinyin": "qiū", "meaning": "پاییز"},
+      {"hanzi": "球", "pinyin": "qiú", "meaning": "توپ"} 
+    ],
+    "qu": [
+      {"hanzi": "去", "pinyin": "qù", "meaning": "رفتن"} 
+    ]
+  }
+}

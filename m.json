@@ -1,0 +1,44 @@
+{
+  "m": {
+    "ma": [
+      {"hanzi": "妈", "pinyin": "mā", "meaning": "مادر"},
+      {"hanzi": "马", "pinyin": "mǎ", "meaning": "اسب"},
+      {"hanzi": "码", "pinyin": "mǎ", "meaning": "کد، شماره"},
+      {"hanzi": "吗", "pinyin": "ma", "meaning": "حرف پرسشی (آیا؟)"}
+    ],
+    "mai": [
+      {"hanzi": "买", "pinyin": "mǎi", "meaning": "خریدن"},
+      {"hanzi": "卖", "pinyin": "mài", "meaning": "فروختن"}
+    ],
+    "mang": [
+      {"hanzi": "忙", "pinyin": "máng", "meaning": "مشغول، پرکار"}
+    ],
+    "me": [
+      {"hanzi": "么", "pinyin": "me", "meaning": "چگونه، چه"}
+    ],
+    "mei": [
+      {"hanzi": "没", "pinyin": "méi", "meaning": "نداشتن، نه"},
+      {"hanzi": "美", "pinyin": "měi", "meaning": "زیبا، خوشگل"},
+      {"hanzi": "每", "pinyin": "měi", "meaning": "هر، هرکدام"},
+      {"hanzi": "妹", "pinyin": "mèi", "meaning": "خواهر کوچک"}
+    ],
+    "men": [
+      {"hanzi": "门", "pinyin": "mén", "meaning": "در، درگاه"},
+      {"hanzi": "们", "pinyin": "men", "meaning": "حروف جمع برای افراد"}
+    ],
+    "mi": [
+      {"hanzi": "米", "pinyin": "mǐ", "meaning": "برنج"}
+    ],
+    "mian": [
+      {"hanzi": "面", "pinyin": "miàn", "meaning": "صورت، رو، نودل"}
+    ],
+    "ming": [
+      {"hanzi": "名", "pinyin": "míng", "meaning": "اسم، نام"},
+      {"hanzi": "明", "pinyin": "míng", "meaning": "روشن، هوشمند"}
+    ],
+    "mu": [
+      {"hanzi": "母", "pinyin": "mǔ", "meaning": "مادر"},
+      {"hanzi": "木", "pinyin": "mù", "meaning": "چوب، درخت"}
+    ]
+  }
+}

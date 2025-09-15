@@ -1,0 +1,52 @@
+{
+  "sh": {
+    "shan": [
+      {"hanzi": "山", "pinyin": "shān", "meaning": "کوه"},
+      {"hanzi": "衫", "pinyin": "shān", "meaning": "پیراهن، لباس"}
+    ],
+    "shang": [
+      {"hanzi": "商", "pinyin": "shāng", "meaning": "تجارت، بازرگان"},
+      {"hanzi": "上", "pinyin": "shàng", "meaning": "بالا، بر روی"}
+    ],
+    "shao": [
+      {"hanzi": "烧", "pinyin": "shāo", "meaning": "سوختن، پختن"},
+      {"hanzi": "少", "pinyin": "shǎo", "meaning": "کم، کمبود"},
+      {"hanzi": "少", "pinyin": "shào", "meaning": "جوان، کم سن"}
+    ],
+    "shen": [
+      {"hanzi": "身", "pinyin": "shēn", "meaning": "بدن، جسم"},
+      {"hanzi": "什", "pinyin": "shén", "meaning": "چه، کدام"}
+      
+    ],
+    "sheng": [
+      {"hanzi": "生", "pinyin": "shēng", "meaning": "زندگی، زنده"}
+    ],
+    "shi": [
+      {"hanzi": "师", "pinyin": "shī", "meaning": "معلم، استاد"},
+      {"hanzi": "十", "pinyin": "shí", "meaning": "ده"},
+      {"hanzi": "时", "pinyin": "shí", "meaning": "زمان، ساعت"},
+      {"hanzi": "识", "pinyin": "shí", "meaning": "شناختن، آگاهی"},
+      {"hanzi": "市", "pinyin": "shì", "meaning": "شهر، بازار"},
+      {"hanzi": "事", "pinyin": "shì", "meaning": "کار، مسئله"},
+      {"hanzi": "视", "pinyin": "shì", "meaning": "دیدن، نگاه کردن"},
+      {"hanzi": "试", "pinyin": "shì", "meaning": "امتحان کردن، آزمایش کردن"},
+      {"hanzi": "室", "pinyin": "shì", "meaning": "اتاق"},
+      {"hanzi": "是", "pinyin": "shì", "meaning": "بودن، درست بودن"}
+    ],
+    "shou": [
+      {"hanzi": "瘦", "pinyin": "shòu", "meaning": "لاغر، کم وزن"}
+    ],
+    "shu": [
+      {"hanzi": "书", "pinyin": "shū", "meaning": "کتاب"},
+      {"hanzi": "数", "pinyin": "shù", "meaning": "عدد، شمارش"}
+    ],
+    "shui": [
+      {"hanzi": "谁", "pinyin": "shuí", "meaning": "چه کسی، کی"},
+      {"hanzi": "水", "pinyin": "shuǐ", "meaning": "آب"},
+      {"hanzi": "睡", "pinyin": "shuì", "meaning": "خوابیدن"}
+    ],
+    "shuo": [
+      {"hanzi": "说", "pinyin": "shuō", "meaning": "گفتن، صحبت کردن"}
+    ]
+  }
+}

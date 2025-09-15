@@ -1,0 +1,50 @@
+{
+  "h": {
+    "hai": [
+      {"hanzi": "孩", "pinyin": "hái", "meaning": "کودک، بچه"},
+      {"hanzi": "还", "pinyin": "hái", "meaning": "هنوز، همچنان"},
+      {"hanzi": "海", "pinyin": "hǎi", "meaning": "دریا، اقیانوس"}
+    ],
+    "han": [
+      {"hanzi": "韩", "pinyin": "hán", "meaning": "کره‌ای"},
+      {"hanzi": "汉", "pinyin": "hàn", "meaning": "چینی، هان (قوم)"} 
+    ],
+    "hao": [
+      {"hanzi": "好", "pinyin": "hǎo", "meaning": "خوب، عالی"},
+      {"hanzi": "号", "pinyin": "hào", "meaning": "شماره، روز ماه"}
+    ],
+    "he": [
+      {"hanzi": "喝", "pinyin": "hē", "meaning": "نوشیدن"},
+      {"hanzi": "和", "pinyin": "hé", "meaning": "و، با"},
+      {"hanzi": "河", "pinyin": "hé", "meaning": "رودخانه"}
+    ],
+    "huo": [
+      {"hanzi": "火", "pinyin": "huǒ", "meaning": "آتش"},
+      {"hanzi": "和", "pinyin": "huò", "meaning": "یا"},
+      {"hanzi": "或", "pinyin": "huò", "meaning": "یا، شاید"}
+    ],
+    "hen": [
+      {"hanzi": "很", "pinyin": "hěn", "meaning": "خیلی، بسیار"} 
+    ],
+    "hong": [
+      {"hanzi": "红", "pinyin": "hóng", "meaning": "قرمز"} 
+    ],
+    "hou": [
+      {"hanzi": "后", "pinyin": "hòu", "meaning": "بعد، پشت"},
+      {"hanzi": "候", "pinyin": "hòu", "meaning": "انتظار، زمان"} 
+    ],
+    "hua": [
+      {"hanzi": "花", "pinyin": "huā", "meaning": "گل"},
+      {"hanzi": "话", "pinyin": "huà", "meaning": "کلمه، حرف، صحبت"} 
+    ],
+    "huan": [
+      {"hanzi": "欢", "pinyin": "huān", "meaning": "شاد، خوشحال"},
+      {"hanzi": "还", "pinyin": "huán", "meaning": "برگشتن"},
+      {"hanzi": "换", "pinyin": "huàn", "meaning": "تعویض کردن، عوض کردن"} 
+    ],
+    "hui": [
+      {"hanzi": "回", "pinyin": "huí", "meaning": "بازگشتن"},
+      {"hanzi": "会", "pinyin": "huì", "meaning": "توانستن، جلسه، جمع شدن"}
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "b": {
+    "ba": [
+      {"hanzi": "八", "pinyin": "bā", "meaning": "هشت"},
+      {"hanzi": "把", "pinyin": "bǎ", "meaning": "کلمه‌ی شمارشی، در دست گرفتن، دسته"},
+      {"hanzi": "爸", "pinyin": "bà", "meaning": "پدر"}
+    ],
+    "bai": [
+      
+      {"hanzi": "白", "pinyin": "bái", "meaning": "سفید"},
+      {"hanzi": "百", "pinyin": "bǎi", "meaning": "صد"}
+    ],
+    "ban": [
+      {"hanzi": "班", "pinyin": "bān", "meaning": "کلاس، گروه"},
+      {"hanzi": "板", "pinyin": "bǎn", "meaning": "تخته، صفحه"},
+      {"hanzi": "半", "pinyin": "bàn", "meaning": "نیم، نصف"}
+    ],
+    "bang": [
+      {"hanzi": "帮", "pinyin": "bāng", "meaning": "کمک کردن، یاری دادن"}
+    ],
+    "bao": [
+      {"hanzi": "包", "pinyin": "bāo", "meaning": "بسته، کیسه"},
+      {"hanzi": "保", "pinyin": "bǎo", "meaning": "محافظت کردن، نگهداری کردن"},
+      {"hanzi": "报", "pinyin": "bào", "meaning": "گزارش، خبر"}
+    ],
+    "bei": [
+      {"hanzi": "杯", "pinyin": "bēi", "meaning": "فنجان، لیوان"},
+      {"hanzi": "北", "pinyin": "běi", "meaning": "شمال"},
+      {"hanzi": "备", "pinyin": "bèi", "meaning": "آماده کردن، تدارک دیدن"}
+    ],
+    "ben": [
+      {"hanzi": "本", "pinyin": "běn", "meaning": "کتاب، ریشه، این (مثلاً 本书 = این کتاب)"}
+    ],
+    "bi": [
+      {"hanzi": "比", "pinyin": "bǐ", "meaning": "مقایسه کردن"},
+      {"hanzi": "笔", "pinyin": "bǐ", "meaning": "قلم"}
+    ],
+    "bian": [
+      {"hanzi": "边", "pinyin": "biān", "meaning": "کنار، سمت"},
+      {"hanzi": "便", "pinyin": "biàn", "meaning": "پس، بنابراین"} 
+    ],
+    "bie": [
+      {"hanzi": "别", "pinyin": "bié", "meaning": "جدا، دیگر، نفی کردن (مثل '不要')"}
+    ],
+    "bu": [
+      {"hanzi": "不", "pinyin": "bù", "meaning": "نه، نفی"}
+    ]
+  }
+}

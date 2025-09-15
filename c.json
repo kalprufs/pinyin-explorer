@@ -1,0 +1,18 @@
+{
+  "c": {
+    "cai": [
+      {"hanzi": "才", "pinyin": "cái", "meaning": "فقط، تازه"},
+      {"hanzi": "菜", "pinyin": "cài", "meaning": "سبزی، غذا"}
+    ],
+    "ci": [
+      {"hanzi": "词", "pinyin": "cí", "meaning": "کلمه، واژه"},
+      {"hanzi": "次", "pinyin": "cì", "meaning": "بار، دفعه"}
+    ],
+    "cong": [
+      {"hanzi": "从", "pinyin": "cóng", "meaning": "از، دنبال کردن"}
+    ],
+    "cu": [
+      {"hanzi": "醋", "pinyin": "cù", "meaning": "سرکه"}
+    ]
+  }
+}

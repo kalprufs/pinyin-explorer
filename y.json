@@ -1,0 +1,61 @@
+{
+  "y": {
+    "yan": [
+      {"hanzi": "烟", "pinyin": "yān", "meaning": "دود"},
+      {"hanzi": "颜", "pinyin": "yán", "meaning": "رنگ"},
+      {"hanzi": "眼", "pinyin": "yǎn", "meaning": "چشم"}
+    ],
+    "yang": [
+      {"hanzi": "羊", "pinyin": "yáng", "meaning": "گوسفند"},
+      {"hanzi": "样", "pinyin": "yàng", "meaning": "نوع، مدل"}
+    ],
+    "yao": [
+      {"hanzi": "要", "pinyin": "yào", "meaning": "خواستن، باید"},
+      {"hanzi": "药", "pinyin": "yào", "meaning": "دارو"}
+    ],
+    "ye": [
+      {"hanzi": "爷", "pinyin": "yé", "meaning": "پدر بزرگ"},
+      {"hanzi": "也", "pinyin": "yě", "meaning": "هم، نیز"},
+      {"hanzi": "业", "pinyin": "yè", "meaning": "تکلیف"},
+      {"hanzi": "夜", "pinyin": "yè", "meaning": "شب"}
+    ],
+    "yi": [
+      {"hanzi": "一", "pinyin": "yī", "meaning": "یک"},
+      {"hanzi": "衣", "pinyin": "yī", "meaning": "لباس"},
+      {"hanzi": "宜", "pinyin": "yí", "meaning": "مناسب، شایسته"},
+      {"hanzi": "已", "pinyin": "yǐ", "meaning": "قبلاً، پیش از این"},
+      {"hanzi": "以", "pinyin": "yǐ", "meaning": "با استفاده از، برای"},
+      {"hanzi": "意", "pinyin": "yì", "meaning": "نیت، معنی، فکر"}
+    ],
+    "yin": [
+      {"hanzi": "因", "pinyin": "yīn", "meaning": "به خاطر، دلیل"},
+      {"hanzi": "银", "pinyin": "yín", "meaning": "نقره، پول"}
+    ],
+    "ying": [
+      {"hanzi": "英", "pinyin": "yīng", "meaning": "انگلیس، برجسته"},
+      {"hanzi": "应", "pinyin": "yīng", "meaning": "اقدام کردن، پاسخ دادن"}
+    ],
+    "yong": [
+      {"hanzi": "用", "pinyin": "yòng", "meaning": "استفاده کردن، به کار بردن"}
+    ],
+    "you": [
+      {"hanzi": "邮", "pinyin": "yóu", "meaning": "پست"},
+      {"hanzi": "友", "pinyin": "yǒu", "meaning": "دوست"},
+      {"hanzi": "有", "pinyin": "yǒu", "meaning": "داشتن"},
+      {"hanzi": "右", "pinyin": "yòu", "meaning": "سمت راست"}
+    ],
+    "yu": [
+      {"hanzi": "鱼", "pinyin": "yú", "meaning": "ماهی"},
+      {"hanzi": "语", "pinyin": "yǔ", "meaning": "زبان، سخن"}
+    ],
+    "yuan": [
+      {"hanzi": "元", "pinyin": "yuán", "meaning": "واحد، یوان"},
+      {"hanzi": "远", "pinyin": "yuǎn", "meaning": "دور، فاصله زیاد"},
+      {"hanzi": "院", "pinyin": "yuàn", "meaning": "حیاط، مؤسسه"}
+    ],
+    "yue": [
+      {"hanzi": "约", "pinyin": "yuē", "meaning": "قرار، توافق"},
+      {"hanzi": "月", "pinyin": "yuè", "meaning": "ماه"}
+    ]
+  }
+}

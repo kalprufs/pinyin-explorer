@@ -1,0 +1,33 @@
+{
+  "ch": {
+    "cha": [
+      {"hanzi": "茶", "pinyin": "chá", "meaning": "چای"},
+      {"hanzi": "差", "pinyin": "chà", "meaning": "تفاوت، اختلاف"}
+    ],
+    "chang": [
+      {"hanzi": "长", "pinyin": "cháng", "meaning": "طولانی، زیاد"},
+      {"hanzi": "场", "pinyin": "cháng", "meaning": "مکان، محل"},
+      {"hanzi": "常", "pinyin": "cháng", "meaning": "همیشه، معمولی"},
+      {"hanzi": "唱", "pinyin": "chàng", "meaning": "خواندن، آواز خواندن"}
+    ],
+    "che": [
+      {"hanzi": "车", "pinyin": "chē", "meaning": "ماشین، وسیله نقلیه"}
+    ],
+    "chen": [
+      {"hanzi": "衬", "pinyin": "chèn", "meaning": "زیرپوش، لایه داخلی"}
+    ],
+    "chi": [
+      {"hanzi": "吃", "pinyin": "chī", "meaning": "خوردن"}
+    ],
+    "chu": [
+      {"hanzi": "出", "pinyin": "chū", "meaning": "خارج شدن، بیرون آمدن"},
+      {"hanzi": "处", "pinyin": "chù", "meaning": "محل، مکان"}
+    ],
+    "chuan": [
+      {"hanzi": "穿", "pinyin": "chuān", "meaning": "پوشیدن، عبور کردن"}
+    ],
+    "chun": [
+      {"hanzi": "春", "pinyin": "chūn", "meaning": "بهار"}
+    ]
+  }
+}

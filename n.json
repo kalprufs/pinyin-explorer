@@ -1,0 +1,33 @@
+{
+  "n": {
+    "na": [
+      {"hanzi": "拿", "pinyin": "ná", "meaning": "گرفتن، برداشتن"},
+      {"hanzi": "哪", "pinyin": "nǎ", "meaning": "کدام"},
+      {"hanzi": "那", "pinyin": "nà", "meaning": "آن"}
+    ],
+    "nan": [
+      {"hanzi": "男", "pinyin": "nán", "meaning": "مرد، مذکر"} 
+    ],
+    "ne": [
+      {"hanzi": "呢", "pinyin": "ne", "meaning": "حرف پرسشی یا تاکیدی (مثلاً چطور؟)"} 
+    ],
+    "neng": [
+      {"hanzi": "能", "pinyin": "néng", "meaning": "توانستن، قادر بودن"} 
+    ],
+    "ni": [
+      {"hanzi": "你", "pinyin": "nǐ", "meaning": "تو، شما"} 
+    ],
+    "nian": [
+      {"hanzi": "年", "pinyin": "nián", "meaning": "سال"} 
+    ],
+    "nin": [
+      {"hanzi": "您", "pinyin": "nín", "meaning": "شما (مودبانه)"} 
+    ],
+    "niu": [
+      {"hanzi": "牛", "pinyin": "niú", "meaning": "گاو"} 
+    ],
+    "nv": [
+      {"hanzi": "女", "pinyin": "nǚ", "meaning": "زن، مونث"} 
+    ]
+  }
+}

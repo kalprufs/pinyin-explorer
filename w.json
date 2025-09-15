@@ -1,0 +1,34 @@
+{
+  "w": {
+    "wai": [
+      {"hanzi": "外", "pinyin": "wài", "meaning": "بیرون، خارجی"}
+    ],
+    "wan": [
+      {"hanzi": "玩", "pinyin": "wán", "meaning": "بازی کردن"},
+      {"hanzi": "完", "pinyin": "wán", "meaning": "تمام کردن، کامل کردن"},
+      {"hanzi": "晚", "pinyin": "wǎn", "meaning": "دیر، شب"},
+      {"hanzi": "万", "pinyin": "wàn", "meaning": "ده هزار"}
+    ],
+    "wang": [
+      {"hanzi": "王", "pinyin": "wáng", "meaning": "پادشاه، نام خانوادگی وانگ"},
+      {"hanzi": "往", "pinyin": "wǎng", "meaning": "رفتن به سمت، به طرف"},
+      {"hanzi": "忘", "pinyin": "wàng", "meaning": "فراموش کردن"}
+    ],
+    "wei": [
+      {"hanzi": "为", "pinyin": "wèi", "meaning": "برای، به خاطر"},
+      {"hanzi": "位", "pinyin": "wèi", "meaning": "موقعیت، جایگاه؛ واحد شمارش برای افراد"}
+    ],
+    "wen": [
+      {"hanzi": "文", "pinyin": "wén", "meaning": "فرهنگ، نوشته، زبان"},
+      {"hanzi": "问", "pinyin": "wèn", "meaning": "پرسیدن"}
+    ],
+    "wo": [
+      {"hanzi": "我", "pinyin": "wǒ", "meaning": "من"}
+    ],
+    "wu": [
+      {"hanzi": "五", "pinyin": "wǔ", "meaning": "پنج"},
+      {"hanzi": "午", "pinyin": "wǔ", "meaning": "ظهر"},
+      {"hanzi": "物", "pinyin": "wù", "meaning": "چیز، شیء"}
+    ]
+  }
+}

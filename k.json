@@ -1,0 +1,31 @@
+{
+  "k": {
+    "ka": [
+      {"hanzi": "咖", "pinyin": "kā", "meaning": "قهوه (مثلاً 咖啡 = قهوه)"}
+    ],
+    "kan": [
+      {"hanzi": "看", "pinyin": "kàn", "meaning": "دیدن، نگاه کردن"}
+       
+    ],
+    "ke": [
+      {"hanzi": "可", "pinyin": "kě", "meaning": "می‌تواند، قابل"},
+      {"hanzi": "刻", "pinyin": "kè", "meaning": "حکاکی کردن، لحظه"},
+      {"hanzi": "客", "pinyin": "kè", "meaning": "مهمان"},
+      {"hanzi": "课", "pinyin": "kè", "meaning": "درس، کلاس"} 
+    ],
+    "kong": [
+      {"hanzi": "空", "pinyin": "kōng", "meaning": "خالی، آسمان"},
+      {"hanzi": "空", "pinyin": "kòng", "meaning": "فضا، زمان آزاد"} 
+    ],
+    "kou": [
+      {"hanzi": "口", "pinyin": "kǒu", "meaning": "دهان، دهانگاه"} 
+    ],
+    "ku": [
+      {"hanzi": "哭", "pinyin": "kū", "meaning": "گریه کردن"},
+      {"hanzi": "裤", "pinyin": "kù", "meaning": "شلوار"}
+    ],
+    "kuai": [
+      {"hanzi": "块", "pinyin": "kuài", "meaning": "تکه، واحد پول"} 
+    ]
+  }
+}

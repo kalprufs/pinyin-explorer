@@ -1,0 +1,43 @@
+{
+  "l": {
+    "la": [
+      {"hanzi": "辣", "pinyin": "là", "meaning": "تند، تیزی"}
+    ],
+    "lai": [
+      {"hanzi": "来", "pinyin": "lái", "meaning": "آمدن، رسیدن"}
+    ],
+    "lao": [
+      {"hanzi": "老", "pinyin": "lǎo", "meaning": "پیر، قدیمی، با تجربه"}
+    ],
+    "li": [
+      {"hanzi": "离", "pinyin": "lí", "meaning": "دور شدن، جدا شدن"},
+      {"hanzi": "里", "pinyin": "lǐ", "meaning": "داخل، درون"},
+      {"hanzi": "力", "pinyin": "lì", "meaning": "قدرت، نیرو"}
+    ],
+    "liang": [
+      {"hanzi": "两", "pinyin": "liǎng", "meaning": "دو (برای شمارش)"},
+      {"hanzi": "亮", "pinyin": "liàng", "meaning": "روشن، درخشان"}
+    ],
+    "lin": [
+      {"hanzi": "林", "pinyin": "lín", "meaning": "جنگل"}
+    ],
+    "liu": [
+      {"hanzi": "留", "pinyin": "liú", "meaning": "نگه داشتن، حفظ کردن"},
+      {"hanzi": "六", "pinyin": "liù", "meaning": "شش"}
+    ],
+    "long": [
+      {"hanzi": "龙", "pinyin": "lóng", "meaning": "اژدها"}
+    ],
+    "lu": [
+      {"hanzi": "路", "pinyin": "lù", "meaning": "راه، خیابان"}
+    ],
+    "lv": [
+      {"hanzi": "旅", "pinyin": "lǚ", "meaning": "سفر، گردش"},
+      {"hanzi": "绿", "pinyin": "lǜ", "meaning": "سبز"}
+    ],
+    "le": [
+      {"hanzi": "了", "pinyin": "le", "meaning": "حرف فعل کامل شدن/تغییر حالت"},
+      {"hanzi": "乐", "pinyin": "lè", "meaning": "شاد، خوشحال"}
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "j": {
+    "ji": [
+      {"hanzi": "机", "pinyin": "jī", "meaning": "دستگاه، ماشین"},
+      {"hanzi": "几", "pinyin": "jǐ", "meaning": "چند، چندتا"}
+    ],
+    "jia": [
+      {"hanzi": "家", "pinyin": "jiā", "meaning": "خانه، خانواده"},
+      {"hanzi": "假", "pinyin": "jià", "meaning": "تعطیلات، مرخصی"}
+    ],
+    "jian": [
+      {"hanzi": "间", "pinyin": "jiān", "meaning": "بین، در میان"},
+      {"hanzi": "见", "pinyin": "jiàn", "meaning": "دیدن"},
+      {"hanzi": "件", "pinyin": "jiàn", "meaning": "قطعه، واحد (مثلاً 件衣服 = یک لباس)"} 
+    ],
+    "jiao": [
+      {"hanzi": "教", "pinyin": "jiāo", "meaning": "آموزش دادن"},
+      {"hanzi": "饺", "pinyin": "jiǎo", "meaning": "پیراشکی چینی"},
+      {"hanzi": "叫", "pinyin": "jiào", "meaning": "صدا زدن، نامیدن"},
+      {"hanzi": "较", "pinyin": "jiào", "meaning": "مقایسه کردن، نسبتاً"} 
+    ],
+    "jie": [
+      {"hanzi": "接", "pinyin": "jiē", "meaning": "گرفتن، وصل کردن"},
+      {"hanzi": "节", "pinyin": "jié", "meaning": "قسمت، بخش"},
+      {"hanzi": "姐", "pinyin": "jiě", "meaning": "خواهر بزرگتر"} 
+    ],
+    "jin": [
+      {"hanzi": "今", "pinyin": "jīn", "meaning": "امروز، حال"},
+      {"hanzi": "近", "pinyin": "jìn", "meaning": "نزدیک"},
+      {"hanzi": "进", "pinyin": "jìn", "meaning": "وارد شدن، پیش رفتن"}
+    ],
+    "jing": [
+      {"hanzi": "经", "pinyin": "jīng", "meaning": "گذشته، کلاسیک"},
+      {"hanzi": "镜", "pinyin": "jìng", "meaning": "آینه"}
+    ],
+    "jiu": [
+      {"hanzi": "九", "pinyin": "jiǔ", "meaning": "نه"},
+      {"hanzi": "酒", "pinyin": "jiǔ", "meaning": "الکل"},
+      {"hanzi": "就", "pinyin": "jiù", "meaning": "فورا، درست، تنها"} 
+    ],
+    "ju": [
+      {"hanzi": "局", "pinyin": "jú", "meaning": "اداره، موقعیت، بخش"}, 
+      {"hanzi": "剧", "pinyin": "jù", "meaning": "نمایش، تئاتر"} 
+    ]
+  }
+}

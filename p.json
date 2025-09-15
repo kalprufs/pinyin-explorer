@@ -1,0 +1,27 @@
+{
+  "p": {
+    "pa": [
+      {"hanzi": "爬", "pinyin": "pá", "meaning": "بالا رفتن"},
+      {"hanzi": "怕", "pinyin": "pà", "meaning": "ترسیدن"}
+    ],
+    "pang": [
+      {"hanzi": "旁", "pinyin": "páng", "meaning": "کنار، کنار چیزی"},
+      {"hanzi": "胖", "pinyin": "pàng", "meaning": "چاق، فربه"}
+    ],
+    "peng": [
+      {"hanzi": "朋", "pinyin": "péng", "meaning": "دوست"}
+    ],
+    "pian": [
+      {"hanzi": "便", "pinyin": "pián", "meaning": "راحت، آسان"},
+      {"hanzi": "片", "pinyin": "piàn", "meaning": "تکه، ورق"}
+    ],
+    "piao": [
+      {"hanzi": "漂", "pinyin": "piào", "meaning": "زیبا، شیک"},
+      {"hanzi": "票", "pinyin": "piào", "meaning": "بلیط"}
+    ],
+    "ping": [
+      {"hanzi": "苹", "pinyin": "píng", "meaning": "سیب"},
+      {"hanzi": "瓶", "pinyin": "píng", "meaning": "بطری"}
+    ]
+  }
+}

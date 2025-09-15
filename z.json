@@ -1,0 +1,33 @@
+{
+  "z": {
+    "zai": [
+      {"hanzi": "仔", "pinyin": "zǎi", "meaning": "جوجه، بچه حیوان"},
+      {"hanzi": "再", "pinyin": "zài", "meaning": "دوباره"},
+      {"hanzi": "在", "pinyin": "zài", "meaning": "بودن، در"}
+    ],
+    "zao": [
+      {"hanzi": "早", "pinyin": "zǎo", "meaning": "صبح، زود"}
+    ],
+    "zen": [
+      {"hanzi": "怎", "pinyin": "zěn", "meaning": "چگونه"}
+    ],
+    "zi": [
+      {"hanzi": "子", "pinyin": "zǐ", "meaning": "فرزند، بچه"},
+      {"hanzi": "字", "pinyin": "zì", "meaning": "حرف، کلمه"},
+      {"hanzi": "自", "pinyin": "zì", "meaning": "خود، خودش"}
+    ],
+    "zou": [
+      {"hanzi": "走", "pinyin": "zǒu", "meaning": "رفتن، راه رفتن"}
+    ],
+    "zui": [
+      {"hanzi": "最", "pinyin": "zuì", "meaning": "بیشترین، بسیار"}
+    ],
+    "zuo": [
+      {"hanzi": "昨", "pinyin": "zuó", "meaning": "دیروز"},
+      {"hanzi": "左", "pinyin": "zuǒ", "meaning": "چپ"},
+      {"hanzi": "作", "pinyin": "zuò", "meaning": "انجام دادن، نوشتن"},
+      {"hanzi": "坐", "pinyin": "zuò", "meaning": "نشستن"},
+      {"hanzi": "做", "pinyin": "zuò", "meaning": "انجام دادن، ساختن"}
+    ]
+  }
+}

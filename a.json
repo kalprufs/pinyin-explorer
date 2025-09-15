@@ -1,0 +1,20 @@
+{
+  "a": {
+    "a": [
+      {"hanzi": "阿", "pinyin": "ā", "meaning": "پیشوند در نام‌ها (阿姨 = خاله/عمه)"},
+      {"hanzi": "啊", "pinyin": "à", "meaning": "یادآوری یا موافقت"}
+    ],
+    "ai": [
+      {"hanzi": "爱", "pinyin": "ài", "meaning": "عشق، دوست داشتن"},
+      {"hanzi": "矮", "pinyin": "ǎi", "meaning": "کوتاه (قد)"}
+    ],
+    "an": [
+      {"hanzi": "安", "pinyin": "ān", "meaning": "آرام، امن"},
+      {"hanzi": "暗", "pinyin": "àn", "meaning": "تاریک"}
+    ],
+    "ao": [
+      {"hanzi": "奥", "pinyin": "ào", "meaning": "عمیق، پنهان (奥运 = المپیک)"},
+      {"hanzi": "熬", "pinyin": "áo", "meaning": "تحمل کردن، طولانی جوشاندن"}
+    ]
+  }
+}
