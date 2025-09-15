@@ -1,0 +1,1058 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>کاوشگر پین‌یین</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @font-face {
+            font-family: 'AbarLowFaNum-SemiBold';
+            src: url('./AbarLowFaNum-SemiBold.woff2') format('woff2');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        :root {
+            --tone1-color: #8a63f2;
+            --tone2-color: #ff4d82;
+            --tone3-color: #ffb347;
+            --tone4-color: #4cd964;
+            --tone5-color: #5ac8fa;
+            --primary-color: #4361ee;
+            --app-bg: #f8f9ff;
+            --card-bg: #ffffff;
+            --text-dark: #2d3748;
+            --text-light: #4a5568;
+            --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
+            --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+            --radius-sm: 8px;
+            --radius-md: 12px;
+            --success-color: #48bb78;
+            --error-color: #f56565;
+        }
+    
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'AbarLowFaNum-SemiBold', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--app-bg);
+            color: var(--text-dark);
+            line-height: 1.5;
+            padding: 20px;
+            font-weight: normal;
+        }
+
+        :lang(en) {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .app-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .app-header {
+            background: linear-gradient(to right, #f8f9ff, #ffffff);
+            padding: 25px;
+            border-radius: 12px 12px 0 0;
+            margin-bottom: 0;
+            text-align: center;
+        }
+
+        .app-title {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 1.8rem;
+        }
+
+        .app-title i {
+            color: var(--primary-color);
+        }
+
+        .app-main {
+            background-image: 
+                linear-gradient(rgba(122, 96, 242, 0.03) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(122, 96, 242, 0.03) 1px, transparent 1px);
+            background-size: 30px 30px;
+            padding: 20px;
+            border-radius: 0 0 12px 12px;
+        }
+
+        .initials-menu {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 20px;
+            justify-content: flex-start;
+            direction: ltr;
+        }
+
+        .initial-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            padding: 15px 25px;
+            background: linear-gradient(135deg, #4361ee, #3a0ca3);
+            color: white;
+            border: none;
+            border-radius: var(--radius-md);
+            font-size: 1.25rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 14px rgba(58, 12, 163, 0.25);
+            min-width: 80px;
+        }
+
+        .initial-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .initial-btn.active {
+            background: linear-gradient(135deg, #4361ee, #3a0ca3);
+            box-shadow: 0 4px 14px rgba(58, 12, 163, 0.4);
+        }
+
+        .content-area {
+            display: flex;
+            gap: 20px;
+            align-items: flex-start;
+        }
+
+        .finals-col {
+            width: 200px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            padding: 15px;
+            background: var(--card-bg);
+            border-radius: var(--radius-md);
+            box-shadow: var(--shadow-md);
+        }
+
+        .final-card {
+            padding: 15px;
+            text-align: center;
+            cursor: pointer;
+            transition: transform 0.25s ease-out, box-shadow 0.25s ease-out;
+            border-radius: var(--radius-sm);
+            box-shadow: var(--shadow-sm);
+            border-left: 4px solid;
+            font-weight: 500;
+        }
+
+        .final-card:hover {
+            transform: translateX(5px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .final-card.tone1 { border-color: var(--tone1-color); }
+        .final-card.tone2 { border-color: var(--tone2-color); }
+        .final-card.tone3 { border-color: var(--tone3-color); }
+        .final-card.tone4 { border-color: var(--tone4-color); }
+        .final-card.tone5 { border-color: var(--tone5-color); }
+
+        .right-content {
+            flex: 1;
+        }
+
+        .tones-display {
+            background: var(--card-bg);
+            border-radius: var(--radius-md);
+            box-shadow: var(--shadow-md);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .tones-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .tone-card {
+            flex: 0 0 auto;
+            padding: 15px 20px;
+            text-align: center;
+            cursor: pointer;
+            transition: transform 0.25s ease-out, box-shadow 0.25s ease-out;
+            border-radius: var(--radius-sm);
+            box-shadow: var(--shadow-sm);
+            border-left: 4px solid;
+            min-width: 80px;
+            position: relative;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        /* Use CSS variables for color inheritance */
+        .tone-card[data-color] {
+            border-color: var(--active-final-color);
+        }
+
+        .tone-card[data-color]:hover {
+            transform: translateY(-3px) scale(1.02);
+            box-shadow: 0 4px 14px var(--active-final-color)55;
+            background: var(--active-final-color)22;
+        }
+
+        .pinyin-audio-btn {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background: #f0f0f0;
+            border: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            color: var(--text-dark);
+            font-size: 0.8rem;
+        }
+
+        .pinyin-audio-btn:hover {
+            background: var(--primary-color);
+            color: white;
+            transform: scale(1.1);
+        }
+
+        /* NEW: Multi-tooltip container */
+        .multi-tooltip-container {
+            position: absolute;
+            bottom: calc(100% + 10px);
+            left: 50%;
+            transform: translateX(-50%) translateY(5px);
+            visibility: hidden;
+            opacity: 0;
+            transition: all 0.2s ease;
+            z-index: 10;
+            pointer-events: none;
+            display: flex;
+            gap: 8px;
+        }
+
+        .pinyin-tooltip {
+            background: var(--card-bg);
+            padding: 12px 15px;
+            border-radius: var(--radius-sm);
+            box-shadow: var(--shadow-md);
+            width: max-content;
+            max-width: 200px;
+            font-size: 0.9rem;
+            text-align: right;
+            border-left: 4px solid;
+            position: relative;
+        }
+        
+        /* Use CSS variables for tooltip color inheritance */
+        .pinyin-tooltip[data-color] {
+            border-left: 4px solid var(--active-final-color);
+        }
+
+        .pinyin-tooltip[data-color]::after {
+            border-color: var(--active-final-color) transparent transparent transparent;
+        }
+
+        .tone-card:hover .multi-tooltip-container {
+            visibility: visible;
+            opacity: 1;
+            transform: translateX(-50%) translateY(0);
+        }
+
+        .pinyin-tooltip::after {
+            content: '';
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            margin-left: -5px;
+            border-width: 5px;
+            border-style: solid;
+        }
+
+        .hanzi-char {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--text-dark);
+        }
+
+        .hanzi-meaning {
+            color: var(--text-light);
+            font-size: 0.85rem;
+            margin-top: 5px;
+        }
+
+        /* Quiz Section Styles */
+        .quiz-section {
+            border-top: 2px solid #e2e8f0;
+            padding-top: 20px;
+            margin-top: 20px;
+        }
+
+        .quiz-header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+
+        .quiz-header h3 {
+            color: var(--primary-color);
+            font-size: 1.2rem;
+        }
+
+        .quiz-controls {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .play-quiz-btn {
+            padding: 12px 20px;
+            background: linear-gradient(135deg, var(--primary-color), #3a0ca3);
+            color: white;
+            border: none;
+            border-radius: var(--radius-sm);
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .play-quiz-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(67, 97, 238, 0.3);
+        }
+
+        .play-quiz-btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .quiz-status {
+            font-weight: 500;
+            color: var(--text-light);
+        }
+
+        .quiz-options {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .quiz-option {
+            padding: 10px 16px;
+            background: var(--card-bg);
+            border: 2px solid #e2e8f0;
+            border-radius: var(--radius-sm);
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 500;
+            min-width: 70px;
+            text-align: center;
+        }
+
+        .quiz-option:hover {
+            border-color: var(--primary-color);
+            transform: translateY(-2px);
+        }
+
+        .quiz-option.correct {
+            background: var(--success-color);
+            color: white;
+            border-color: var(--success-color);
+        }
+
+        .quiz-option.incorrect {
+            background: var(--error-color);
+            color: white;
+            border-color: var(--error-color);
+        }
+
+        .quiz-option.disabled {
+            cursor: not-allowed;
+            opacity: 0.7;
+        }
+
+        #pronunciation-options .quiz-option.correct {
+            background: var(--card-bg) !important;
+            color: var(--text-dark) !important;
+            border-color: var(--primary-color) !important;
+            transform: translateY(-2px);
+            /* Remove green background and text color, keep blue border and lift effect */
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @media (max-width: 768px) {
+            .content-area {
+                flex-direction: column;
+            }
+            
+            .finals-col {
+                width: 100%;
+            }
+            
+            .tones-grid {
+                justify-content: center;
+            }
+
+            .quiz-controls {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            /* Stack tooltips vertically on mobile */
+            .multi-tooltip-container {
+                flex-direction: column;
+                gap: 5px;
+            }
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .initial-btn,
+        .play-quiz-btn,
+        .quiz-option {
+            font-weight: normal;
+        }
+
+        [lang="fa"], html[lang="fa"] body {
+            font-family: 'AbarLowFaNum-SemiBold', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+        }
+
+        #practice-controls {
+            margin-top: 32px;
+            margin-bottom: 8px;
+            justify-content: flex-start;
+        }
+        #pronunciation-options {
+            margin-bottom: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="app-container">
+        <header class="app-header">
+            <h1 class="app-title">
+                <i class="fas fa-language"></i>
+                <span lang="fa">کاوشگر پین‌یین</span>
+            </h1>
+        </header>
+        <main class="app-main">
+            <div class="initials-menu" id="initials-menu">
+            </div>
+            
+            <div class="content-area">
+                <div id="finals-col" class="finals-col hidden"></div>
+                <div class="right-content">
+                    <div id="tones-display" class="tones-display hidden">
+                        <div class="tones-grid"></div>
+                    </div>
+                    
+                    <div id="quiz-section" class="quiz-section hidden">
+                        <div class="tones-display">
+                            <div class="quiz-header">
+                                <i class="fas fa-brain"></i>
+                                <h3>آزمون تُن</h3>
+                            </div>
+                            <div class="quiz-controls">
+                                <button id="play-quiz-btn" class="play-quiz-btn">
+                                    <i class="fas fa-play"></i>
+                                </button>
+                                <div id="quiz-status" class="quiz-status">برای شروع آزمون کلیک کنید</div>
+                            </div>
+                            <div id="quiz-options" class="quiz-options"></div>
+                        </div>
+                    </div>
+                    <div id="pronunciation-section" class="quiz-section hidden">
+                        <div class="tones-display">
+                            <div class="quiz-header">
+                                <i class="fas fa-microphone"></i>
+                                <h3>تمرین تلفظ</h3>
+                            </div>
+                            <div class="quiz-controls">
+                                <div id="pronunciation-status" class="quiz-status">برای شروع تمرین، یک تُن انتخاب کنید</div>
+                            </div>
+                            <div id="pronunciation-options" class="quiz-options"></div>
+                            <div id="practice-controls" class="quiz-controls hidden">
+                                <button id="play-native-btn" class="play-quiz-btn" title="پخش صدای بومی">
+                                    <i class="fas fa-play"></i>
+                                </button>
+                                <button id="record-btn" class="play-quiz-btn" title="ضبط صدا">
+                                    <i class="fas fa-microphone"></i>
+                                </button>
+                                <button id="stop-record-btn" class="play-quiz-btn hidden" title="توقف ضبط">
+                                    <i class="fas fa-stop"></i>
+                                </button>
+                                <button id="compare-btn" class="play-quiz-btn hidden" title="مقایسه">
+                                    <i class="fas fa-exchange-alt"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // DOM Elements
+            const initialsMenu = document.getElementById('initials-menu');
+            const finalsCol = document.getElementById('finals-col');
+            const tonesDisplay = document.getElementById('tones-display');
+            const tonesGrid = document.querySelector('.tones-grid');
+            const quizSection = document.getElementById('quiz-section');
+            const playQuizBtn = document.getElementById('play-quiz-btn');
+            const quizStatus = document.getElementById('quiz-status');
+            const quizOptions = document.getElementById('quiz-options');
+            const pronunciationSection = document.getElementById('pronunciation-section');
+            const pronunciationOptions = document.getElementById('pronunciation-options');
+            const pronunciationStatus = document.getElementById('pronunciation-status');
+            const practiceControls = document.getElementById('practice-controls');
+            const playNativeBtn = document.getElementById('play-native-btn');
+            const recordBtn = document.getElementById('record-btn');
+            const stopRecordBtn = document.getElementById('stop-record-btn');
+            const compareBtn = document.getElementById('compare-btn');
+
+            // State variables
+            let currentInitial = '';
+            let currentFinal = '';
+            let pinyinData = null;
+            let currentToneData = [];
+            let currentCorrectAnswer = '';
+            let quizActive = false;
+            let initialBtns = [];
+
+            let mediaRecorder;
+            let recordedChunks = [];
+            let userAudioBlob;
+            let selectedPracticeWord = '';
+            let isRecording = false;
+
+            // Dynamically generate initials menu from available JSON files
+            async function generateInitialsMenu() {
+                // List of initials to show (from JSON files in the folder)
+                // You can manually list them, or fetch from server if you want full automation
+                const initials = [
+                    'a','b','c','d','e','f','g','h','j','k','l','m','n','o','p','q','r','s','sh','ch','zh','t','w','x','y','z'
+                ];
+                initialsMenu.innerHTML = '';
+                initials.forEach((initial, idx) => {
+                    const btn = document.createElement('button');
+                    btn.className = 'initial-btn' + (idx === 0 ? ' active' : '');
+                    btn.setAttribute('data-initial', initial);
+                    btn.textContent = initial;
+                    initialsMenu.appendChild(btn);
+                });
+                initialBtns = Array.from(document.querySelectorAll('.initial-btn'));
+            }
+
+            // Tone number extraction function
+            function getToneNumber(pinyin) {
+                const toneMarks = {
+                    'ā': '1', 'á': '2', 'ǎ': '3', 'à': '4',
+                    'ē': '1', 'é': '2', 'ě': '3', 'è': '4',
+                    'ī': '1', 'í': '2', 'ǐ': '3', 'ì': '4',
+                    'ō': '1', 'ó': '2', 'ǒ': '3', 'ò': '4',
+                    'ū': '1', 'ú': '2', 'ǔ': '3', 'ù': '4',
+                    'ǖ': '1', 'ǘ': '2', 'ǚ': '3', 'ǜ': '4',
+                    'ń': '2', 'ň': '3', 'ǹ': '4',
+                    'ḿ': '2'
+                };
+                for (let char of pinyin) {
+                    if (toneMarks[char]) {
+                        return toneMarks[char];
+                    }
+                }
+                return '5'; // neutral tone
+            }
+
+            // Play audio function
+            function playAudio(pinyin, toneNumber) {
+                // Remove tone marks for filename
+                const filename = pinyin.replace(/[āáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜńňǹḿ]/g, function(char) {
+                    const map = {
+                        'ā':'a','á':'a','ǎ':'a','à':'a',
+                        'ē':'e','é':'e','ě':'e','è':'e',
+                        'ī':'i','í':'i','ǐ':'i','ì':'i',
+                        'ō':'o','ó':'o','ǒ':'o','ò':'o',
+                        'ū':'u','ú':'u','ǔ':'u','ù':'u',
+                        'ǖ':'v','ǘ':'v','ǚ':'v','ǜ':'v',
+                        'ń':'n','ň':'n','ǹ':'n','ḿ':'m'
+                    };
+                    return map[char] || char;
+                });
+                const audio = new Audio(`${filename}${toneNumber}.mp3`);
+                audio.play().catch(error => {
+                    console.log(`Audio file not found: ${filename}${toneNumber}.mp3`);
+                });
+            }
+
+            // NEW: Group words by pinyin pronunciation
+            function groupWordsByPinyin(words) {
+                const grouped = {};
+                words.forEach(word => {
+                    const pinyin = word.pinyin;
+                    if (!grouped[pinyin]) {
+                        grouped[pinyin] = [];
+                    }
+                    grouped[pinyin].push(word);
+                });
+                return grouped;
+            }
+
+            // Initialize the app
+            async function initApp() {
+                await generateInitialsMenu();
+                // Hide finals list on page load
+                finalsCol.classList.add('hidden');
+                tonesDisplay.classList.add('hidden');
+                quizSection.classList.add('hidden');
+                pronunciationSection.classList.add('hidden');
+                // Add event listeners to initial buttons
+                initialBtns.forEach(btn => {
+                    btn.addEventListener('click', async (e) => {
+                        const initial = e.target.getAttribute('data-initial');
+                        // If finals list is open, clicking the same letter will hide it
+                        if (!finalsCol.classList.contains('hidden') && currentInitial === initial) {
+                            finalsCol.classList.add('hidden');
+                            tonesDisplay.classList.add('hidden');
+                            quizSection.classList.add('hidden');
+                            pronunciationSection.classList.add('hidden');
+                            initialBtns.forEach(b => b.classList.remove('active'));
+                            return;
+                        }
+                        // Update active button
+                        initialBtns.forEach(b => b.classList.remove('active'));
+                        e.target.classList.add('active');
+                        // Load new initial data
+                        await loadInitialData(initial);
+                    });
+                });
+                // Set default initial
+                currentInitial = initialBtns.length > 0 ? initialBtns[0].getAttribute('data-initial') : '';
+                if (currentInitial) {
+                    await loadInitialData(currentInitial);
+                }
+            }
+
+            // Load data for the selected initial
+            async function loadInitialData(initial) {
+                // Only keep the robust version with error handling
+                try {
+                    let json;
+                    const response = await fetch(`${initial}.json`);
+                    if (!response.ok) throw new Error('File not found');
+                    json = await response.json();
+                    // The file structure is { "b": { ... } }, so extract the inner object
+                    if (json[initial]) {
+                        console.log('Loaded data for', initial, json[initial]);
+                        pinyinData = json[initial];
+                    } else {
+                        console.log('JSON file loaded but no finals found for', initial, json);
+                        finalsCol.innerHTML = `<div style="color:red;padding:1em">ساختار فایل ${initial}.json اشتباه است یا داده‌ای وجود ندارد.</div>`;
+                        pinyinData = {};
+                    }
+                } catch (error) {
+                    finalsCol.innerHTML = `<div style="color:red;padding:1em">فایل ${initial}.json پیدا نشد یا خطا در بارگذاری داده.</div>`;
+                    pinyinData = {};
+                }
+                currentInitial = initial;
+                finalsCol.classList.add('hidden');
+                tonesDisplay.classList.add('hidden');
+                quizSection.classList.add('hidden');
+                pronunciationSection.classList.add('hidden');
+                renderFinals();
+                finalsCol.classList.remove('hidden');
+            }
+
+            // Render the finals for the current initial
+            function renderFinals() {
+                finalsCol.innerHTML = '';
+                let colorIndex = 1;
+                if (!pinyinData || Object.keys(pinyinData).length === 0) {
+                    finalsCol.innerHTML = '<div style="color:red;padding:1em">داده‌ای برای این حرف وجود ندارد.</div>';
+                    return;
+                }
+                Object.keys(pinyinData).forEach(final => {
+                    const finalData = pinyinData[final];
+                    const card = document.createElement('div');
+                    card.className = `final-card tone${colorIndex}`;
+                    card.textContent = final;
+                    card.addEventListener('click', () => {
+                        currentFinal = final;
+                        // Get the computed color of the clicked card and set it as a CSS variable on the tones display
+                        const finalCardColor = getComputedStyle(card).borderColor;
+                        tonesDisplay.style.setProperty('--active-final-color', finalCardColor);
+                        renderTones(finalData, finalCardColor);
+                        setupQuiz(finalData);
+                        setupPronunciation(finalData);
+                        tonesDisplay.classList.remove('hidden');
+                        quizSection.classList.remove('hidden');
+                        pronunciationSection.classList.remove('hidden');
+                    });
+                    finalsCol.appendChild(card);
+                    colorIndex = colorIndex < 5 ? colorIndex + 1 : 1;
+                });
+            }
+
+            // NEW: Render tones for the selected final with grouped tooltips
+            function renderTones(words, finalCardColor) {
+                tonesGrid.innerHTML = '';
+                currentToneData = words;
+                if (!words || words.length === 0) {
+                    tonesGrid.innerHTML = '<div style="color:red;padding:1em">داده‌ای برای این فاینال وجود ندارد.</div>';
+                    return;
+                }
+
+                // Extract the RGB values from the finalCardColor for hover effects
+                const colorMatch = finalCardColor.match(/rgb\((\d+),\s*(\d+),\s*(\d+)\)/);
+                let hexColor = finalCardColor;
+                if (colorMatch) {
+                    const r = parseInt(colorMatch[1]);
+                    const g = parseInt(colorMatch[2]);
+                    const b = parseInt(colorMatch[3]);
+                    hexColor = `#${r.toString(16).padStart(2, '0')}${g.toString(16).padStart(2, '0')}${b.toString(16).padStart(2, '0')}`;
+                }
+
+                // NEW: Group words by pinyin pronunciation
+                const groupedWords = groupWordsByPinyin(words);
+                console.log('Grouped words for this final:', groupedWords);
+
+                // Create tone cards for each unique pinyin
+                Object.entries(groupedWords).forEach(([pinyin, wordsGroup]) => {
+                    const toneNumber = getToneNumber(pinyin);
+                    const toneCard = document.createElement('div');
+                    toneCard.className = `tone-card`;
+                    toneCard.dataset.color = 'true'; // Add a data attribute to target in CSS
+
+                    // NEW: Create multi-tooltip container
+                    const multiTooltipContainer = document.createElement('div');
+                    multiTooltipContainer.className = 'multi-tooltip-container';
+
+                    // Create tooltip for each hanzi/meaning pair
+                    wordsGroup.forEach((word, index) => {
+                        const tooltip = document.createElement('div');
+                        tooltip.className = 'pinyin-tooltip';
+                        tooltip.dataset.color = 'true';
+                        tooltip.innerHTML = `
+                            <div class="hanzi-char">${word.hanzi}</div>
+                            <div class="hanzi-meaning">${word.meaning}</div>
+                        `;
+                        multiTooltipContainer.appendChild(tooltip);
+                    });
+
+                    toneCard.appendChild(multiTooltipContainer);
+
+                    const pinyinSpan = document.createElement('span');
+                    pinyinSpan.lang = 'en';
+                    pinyinSpan.textContent = pinyin;
+                    toneCard.appendChild(pinyinSpan);
+
+                    const audioBtn = document.createElement('button');
+                    audioBtn.className = 'pinyin-audio-btn';
+                    audioBtn.setAttribute('data-pinyin', pinyin.replace(/[āáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜńňǹḿ]/g, function(char) {
+                        // Remove tone marks for filename
+                        const map = {
+                            'ā':'a','á':'a','ǎ':'a','à':'a',
+                            'ē':'e','é':'e','ě':'e','è':'e',
+                            'ī':'i','í':'i','ǐ':'i','ì':'i',
+                            'ō':'o','ó':'o','ǒ':'o','ò':'o',
+                            'ū':'u','ú':'u','ǔ':'u','ù':'u',
+                            'ǖ':'v','ǘ':'v','ǚ':'v','ǜ':'v',
+                            'ń':'n','ň':'n','ǹ':'n','ḿ':'m'
+                        };
+                        return map[char] || char;
+                    }));
+                    audioBtn.setAttribute('data-tone', toneNumber);
+                    audioBtn.innerHTML = '<i class="fas fa-volume-up"></i>';
+                    toneCard.appendChild(audioBtn);
+
+                    audioBtn.addEventListener('click', (e) => {
+                        e.stopPropagation();
+                        const pinyin = e.currentTarget.getAttribute('data-pinyin');
+                        const tone = e.currentTarget.getAttribute('data-tone');
+                        playAudio(pinyin, tone);
+                    });
+
+                    // Add JavaScript hover effects
+                    toneCard.addEventListener('mouseenter', () => {
+                        toneCard.style.boxShadow = `0 4px 14px ${hexColor}55`;
+                        toneCard.style.background = hexColor + '22';
+                    });
+                    
+                    toneCard.addEventListener('mouseleave', () => {
+                        toneCard.style.boxShadow = '';
+                        toneCard.style.background = '';
+                    });
+                    
+                    tonesGrid.appendChild(toneCard);
+                });
+            }
+
+            // Setup quiz for the current tones
+            function setupQuiz(words) {
+                quizActive = false;
+                currentCorrectAnswer = '';
+                quizStatus.textContent = 'برای شروع آزمون کلیک کنید';
+                playQuizBtn.disabled = false;
+
+                // Always show all 5 tones as options
+                quizOptions.innerHTML = '';
+                const toneLabels = {
+                    '1': 'یک',
+                    '2': 'دو',
+                    '3': 'سه',
+                    '4': 'چهار',
+                    '5': 'بی تن'
+                };
+                ['1', '2', '3', '4', '5'].forEach(tone => {
+                    const optionBtn = document.createElement('button');
+                    optionBtn.className = 'quiz-option';
+                    optionBtn.dataset.tone = tone;
+                    optionBtn.innerHTML = '<span lang="fa">' + toneLabels[tone] + '</span>';
+                    optionBtn.addEventListener('click', () => handleQuizAnswer(tone));
+                    quizOptions.appendChild(optionBtn);
+                });
+            }
+
+            // Start the quiz
+            function startQuiz() {
+                if (currentToneData.length === 0) return;
+                
+                // Reset all options
+                document.querySelectorAll('.quiz-option').forEach(btn => {
+                    btn.className = 'quiz-option';
+                });
+                
+                // Pick random word
+                const randomIndex = Math.floor(Math.random() * currentToneData.length);
+                const randomWord = currentToneData[randomIndex];
+                currentCorrectAnswer = getToneNumber(randomWord.pinyin);
+                
+                // Update UI
+                quizActive = true;
+                quizStatus.textContent = 'گوش دهید و تُن صحیح را انتخاب کنید!';
+                
+                // Play audio for the quiz
+                playAudio(
+                    randomWord.pinyin.replace(/[āáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜńňǹḿ]/g, function(char) {
+                        const map = {
+                            'ā':'a','á':'a','ǎ':'a','à':'a',
+                            'ē':'e','é':'e','ě':'e','è':'e',
+                            'ī':'i','í':'i','ǐ':'i','ì':'i',
+                            'ō':'o','ó':'o','ǒ':'o','ò':'o',
+                            'ū':'u','ú':'u','ǔ':'u','ù':'u',
+                            'ǖ':'v','ǘ':'v','ǚ':'v','ǜ':'v',
+                            'ń':'n','ň':'n','ǹ':'n','ḿ':'m'
+                        };
+                        return map[char] || char;
+                    }),
+                    currentCorrectAnswer
+                );
+            }
+
+            // Handle quiz answer
+            function handleQuizAnswer(selectedTone) {
+                if (!quizActive) return;
+                
+                const optionBtns = document.querySelectorAll('.quiz-option');
+                
+                // Disable all options
+                optionBtns.forEach(btn => {
+                    btn.classList.add('disabled');
+                });
+                
+                // Find and highlight the selected option
+                const selectedBtn = Array.from(optionBtns).find(btn => btn.dataset.tone === selectedTone);
+                const correctBtn = Array.from(optionBtns).find(btn => btn.dataset.tone === currentCorrectAnswer);
+                
+                if (selectedTone === currentCorrectAnswer) {
+                    // Correct answer
+                    selectedBtn.classList.add('correct');
+                    quizStatus.textContent = '🎉 درست است! آفرین!';
+                } else {
+                    // Wrong answer
+                    selectedBtn.classList.add('incorrect');
+                    if (correctBtn) correctBtn.classList.add('correct');
+                    quizStatus.textContent = '❌ اشتباه است. پاسخ صحیح ' + currentCorrectAnswer + ' بود.';
+                }
+                quizActive = false;
+                // Reset after 3 seconds
+                setTimeout(() => {
+                    optionBtns.forEach(btn => {
+                        btn.className = 'quiz-option';
+                    });
+                    quizStatus.textContent = 'برای شروع آزمون کلیک کنید';
+                }, 3000);
+            }
+
+            // 3. Pronunciation Practice Functions
+            function setupPronunciation(words) {
+                pronunciationOptions.innerHTML = '';
+                pronunciationStatus.textContent = 'برای شروع تمرین، یک تُن انتخاب کنید';
+                practiceControls.classList.add('hidden');
+                compareBtn.classList.add('hidden');
+                // Group words by pinyin pronunciation
+                const groupedWords = groupWordsByPinyin(words);
+                // Create options for each unique pinyin (with tone marks)
+                Object.entries(groupedWords).forEach(([pinyin, wordsGroup]) => {
+                    const optionBtn = document.createElement('button');
+                    optionBtn.className = 'quiz-option';
+                    optionBtn.innerHTML = `<span lang="en">${pinyin}</span>`;
+                    optionBtn.addEventListener('click', (event) => selectPracticeWord(pinyin, wordsGroup, event));
+                    pronunciationOptions.appendChild(optionBtn);
+                });
+            }
+
+            function selectPracticeWord(pinyin, wordsGroup, event) {
+                selectedPracticeWord = pinyin;
+                pronunciationStatus.textContent = `تمرین تلفظ: ${pinyin}`;
+                practiceControls.classList.remove('hidden');
+                compareBtn.classList.add('hidden');
+                recordBtn.classList.remove('hidden');
+                stopRecordBtn.classList.add('hidden');
+                // Update active option
+                document.querySelectorAll('#pronunciation-options .quiz-option').forEach(btn => {
+                    btn.classList.remove('correct');
+                });
+                event.target.classList.add('correct');
+            }
+
+            async function startRecording() {
+                try {
+                    const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+                    mediaRecorder = new MediaRecorder(stream);
+                    recordedChunks = [];
+                    mediaRecorder.ondataavailable = (event) => {
+                        if (event.data.size > 0) {
+                            recordedChunks.push(event.data);
+                        }
+                    };
+                    mediaRecorder.onstop = () => {
+                        userAudioBlob = new Blob(recordedChunks, { type: 'audio/wav' });
+                        stream.getTracks().forEach(track => track.stop());
+                        stopRecordingUI();
+                        compareBtn.classList.remove('hidden');
+                    };
+                    mediaRecorder.start();
+                    startRecordingUI();
+                } catch (error) {
+                    console.error('Error accessing microphone:', error);
+                    pronunciationStatus.textContent = 'خطا در دسترسی به میکروفون';
+                }
+            }
+
+            function startRecordingUI() {
+                isRecording = true;
+                recordBtn.classList.add('hidden');
+                stopRecordBtn.classList.remove('hidden');
+                pronunciationStatus.textContent = 'در حال ضبط...';
+            }
+
+            function stopRecordingUI() {
+                isRecording = false;
+                recordBtn.classList.remove('hidden');
+                stopRecordBtn.classList.add('hidden');
+                pronunciationStatus.textContent = 'ضبط تکمیل شد. می‌توانید مقایسه کنید';
+            }
+
+            function compareAudios() {
+                if (!selectedPracticeWord || !userAudioBlob) return;
+                pronunciationStatus.textContent = 'پخش صدای بومی...';
+                // Play native audio first
+                playAudio(
+                    selectedPracticeWord.replace(/[āáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜńňǹḿ]/g, function(char) {
+                        const map = {
+                            'ā':'a','á':'a','ǎ':'a','à':'a',
+                            'ē':'e','é':'e','ě':'e','è':'e',
+                            'ī':'i','í':'i','ǐ':'i','ì':'i',
+                            'ō':'o','ó':'o','ǒ':'o','ò':'o',
+                            'ū':'u','ú':'u','ǔ':'u','ù':'u',
+                            'ǖ':'v','ǘ':'v','ǚ':'v','ǜ':'v',
+                            'ń':'n','ň':'n','ǹ':'n','ḿ':'m'
+                        };
+                        return map[char] || char;
+                    }),
+                    getToneNumber(selectedPracticeWord)
+                );
+                // Play user audio after delay
+                setTimeout(() => {
+                    pronunciationStatus.textContent = 'پخش ضبط شما...';
+                    const userAudio = new Audio(URL.createObjectURL(userAudioBlob));
+                    userAudio.play();
+                    setTimeout(() => {
+                        pronunciationStatus.textContent = 'مقایسه تکمیل شد';
+                        // Reset to original state after 2 seconds
+                        setTimeout(() => {
+                            pronunciationStatus.textContent = 'برای شروع تمرین، یک تُن انتخاب کنید';
+                            practiceControls.classList.add('hidden');
+                            compareBtn.classList.add('hidden');
+                            recordBtn.classList.remove('hidden');
+                            stopRecordBtn.classList.add('hidden');
+                            // Deselect all options
+                            document.querySelectorAll('#pronunciation-options .quiz-option').forEach(btn => {
+                                btn.classList.remove('correct');
+                            });
+                            selectedPracticeWord = '';
+                            userAudioBlob = null;
+                        }, 2000);
+                    }, 2000);
+                }, 2000);
+            }
+
+            // 4. Event Listeners for Pronunciation Practice
+            playNativeBtn.addEventListener('click', () => {
+                if (selectedPracticeWord) {
+                    playAudio(
+                        selectedPracticeWord.replace(/[āáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜńňǹḿ]/g, function(char) {
+                            const map = {
+                                'ā':'a','á':'a','ǎ':'a','à':'a',
+                                'ē':'e','é':'e','ě':'e','è':'e',
+                                'ī':'i','í':'i','ǐ':'i','ì':'i',
+                                'ō':'o','ó':'o','ǒ':'o','ò':'o',
+                                'ū':'u','ú':'u','ǔ':'u','ù':'u',
+                                'ǖ':'v','ǘ':'v','ǚ':'v','ǜ':'v',
+                                'ń':'n','ň':'n','ǹ':'n','ḿ':'m'
+                            };
+                            return map[char] || char;
+                        }),
+                        getToneNumber(selectedPracticeWord)
+                    );
+                }
+            });
+            recordBtn.addEventListener('click', startRecording);
+            stopRecordBtn.addEventListener('click', () => {
+                if (mediaRecorder && mediaRecorder.state === 'recording') {
+                    mediaRecorder.stop();
+                }
+            });
+            compareBtn.addEventListener('click', compareAudios);
+
+            // Initialize the app
+            initApp();
+        });
+    </script>
+</body>
+</html>
